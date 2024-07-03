@@ -1,0 +1,123 @@
+
+h2 {
+  text-decoration: underline;
+}
+#contributionpart{
+  min-height: 70vh;
+  background-color: rgba(30, 30, 30, 0.5);
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  margin: 2vh auto; 
+  padding: 30px;
+  width: 90vw;
+  /* display: flex; */
+  
+}
+.contricardgroup{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* background-color: red; */
+
+}
+.contricard{
+  padding: 4vw 2vw;
+  /* background-color: red; */
+  margin: 2vh 0px ;
+  padding: 20px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgb(15, 9, 9);
+  background-color: rgb(188 184 184);
+}
+.contricard>img{
+  width: 160px;
+  border-radius: 50%;
+}
+.center {
+  padding: 2vh;
+  display: flex;
+  margin: 4vh auto;
+  justify-content: space-evenly;
+}
+.shopcard {
+  background-color: rgba(224, 224, 224, 0.8);
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  padding: 20px 10px;
+  /* height: 50vh; */
+  border-radius: 10px;
+  border:2px solid white ;
+}
+.shopcard > h2,
+img,button,a {
+  text-align: center;
+  width: 80%;
+  margin: 2vh auto;
+  border-radius: 5px;
+}
+.aboutshop{
+  margin: 20px auto;
+
+}
+.shopcard >a> button {
+  padding: 10px;
+  /* margin: 5px auto; */
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid black;
+}
+.shopcard >a> button:hover {
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+#dtownmenu {
+  /* position: fixed; */
+  top: 1vh;
+  left: 18%;
+  z-index: 10;
+  background-color: rgb(183, 183, 255);
+  box-shadow: 0px 0px 10px white;
+  border: 2px solid black;
+  border-radius: 5px;
+  /* width: 90vw; */
+  min-width: fit-content;
+  max-width: 80vw;
+  margin: 5vh auto;
+  padding: 50px;
+  text-align: center;
+  /* max-height: 70vh; */
+  /* overflow-y: scroll; */
+}
+
+#dtownmenu table,
+td,
+th {
+  margin: 5px auto;
+  padding: 1vw 4vw;
+  border: 2px solid black;
+  border-collapse: collapse;
+  font-size: 1.1em;
+}
+#closemenu {
+  padding: 10px;
+  font-size: 1em;
+  font-weight: bold;
+  width: 40%;
+}
+#closemenu:hover {
+  border: 2px solid black;
+  background-color: orangered;
+  color: white;
+}
+::selection {
+  background-color: orangered;
+  color: white;
+}
